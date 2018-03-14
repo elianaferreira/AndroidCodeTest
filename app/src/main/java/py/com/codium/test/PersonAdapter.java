@@ -14,9 +14,6 @@ public class PersonAdapter extends RecyclerView.Adapter<GenericViewHolder> {
 
     Person[] mDataSet;
 
-    //TODO constructor
-
-
     public PersonAdapter(Person[] mDataSet) {
         this.mDataSet = mDataSet;
     }
